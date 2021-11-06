@@ -9,25 +9,37 @@
 </head>
 
 <body>
+    <!-- Header & Nav bar -->
     <div>
         <h1>Elaine Zhu</h1>
+        <h3>React Frontend Developer</h3>
         <nav>
-            <ul>
+            <ul class="nav">
                 <li><a href="#section1">Home</a></li>
                 <li><a href="#section2">About</a></li>
                 <li><a href="#section3">Contact</a></li>
             </ul>
         </nav>
-        <hr>
+        <hr class="line">
     </div>
-
+    <!-- main body 2 sections -->
     <main>
-        <section id="section2">
+        <section id="section1">
             <img src="images/character.jpg" alt="Profile Photo">
+            <h2 class="intro">Hello! I'm Elaine Zhu.</h2>
+            <p>
+                 I am a student in Thinkful and I live in New York. I hope I can be a React developer one day!
+            </p>
+            <hr>
+        </section>
+        <section id="section2">
+            
             <h2>About Me</h2>
             <p>
-                My name is Elaine Zhu. I am a React front end developer. I know HTML, CSS, JavaScript
-                and React. Hopefully, I can learn more technology in the future. In my freetime, I like
+                 I studied Chemical Engineering in college. After graduation, I found
+                 I was more interested in programming. I learned HTML, CSS, JavaScript
+                and React by my own. I'm interested in how programs can make people's lives
+                much convenient. I lile to work with like-minded developers. In my freetime, I like
                 reading and hiking. I believe the world offers a lot for me to explore! 
             </p>
         </section>
@@ -36,23 +48,23 @@
             <p>
                 I'd love to hear from you! Please feel free to contact or follow me:
             </p>
-            <div>
-                <a href="#">LinkedIn</a>
-                <br>
-                <a href="#">GitHub</a>
-            </div>
+            <ol class="link">
+                <li><a href="https://www.linkedin.com/in/elaine-zhu2020/">LinkedIn</a></li>
+                <li><a href="https://github.com/EZsunshine/">GitHub</a></li>
+            </ol>
             <div class="map">
+                
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193730.13844331598!2d-74.0112749775934!3d40.65119385113305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24369470a592b%3A0x4109d18b6c5c7b05!2sQueens%2C%20NY!5e0!3m2!1sen!2sus!4v1636224402126!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
             
         </section>
-       
-
     </main>
-    <script src="index.js"></script>
-    
+   
+    <!-- footer -->
 <footer>
-    <p class="footer">&copyElaine Zhu</p>
+    <p class="footer">&copy Elaine Zhu</p>
 </footer>
+
+<script src="index.js"></script>
 </body>
 </html>
